@@ -1,0 +1,150 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+<header>
+
+</header>
+<nav class="navbar navbar-expand-md bg-primary navbar-dark" style="width:960px;margin:auto;border:2px solid blue;">
+  
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar">  
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" style="text-align:center;" id="mynavbar">
+  <ul class="navbar-nav">
+    <li class="nav-item"><a class="nav-link "role="button" onclick="displayItems(1)">HOME APPLIANCE</a></li>
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button">COSTUMES</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" role="button" onclick="displayItems(2)">MEN'S WEAR</a>
+      <a class="dropdown-item" role="button" onclick="displayItems(3)">WOMEN'S WEAR</a>
+      </div>
+
+
+      </li>
+      <li class="nav-item"><a class="nav-link "role="button" onclick="displayItems(4)">FOOD</a></li>
+      <li class="nav-item"><a class="nav-link" role="button" onclick="displayItems(5)">BOOKS</a></li>
+
+      
+      </ul>
+    </div>
+  </nav>
+  <div class="myRow">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  
+    <!--Indicators-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+      <li data-target="#demo" data-slide-to="4"></li>
+      </ul>
+
+      <!--The slideshow-->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="purifer.jpg">
+          <img src="iron box.jpg"><br>
+          <img src="mixer.jpg">
+          <img src="washing machine.webp">
+          <div class="carousel-caption">
+          <h3>HOME APPLIANCE</h3>
+          </div>
+
+          </div>
+          <div class="carousel-item">
+            <img src="blue legenha.jpg">
+            <img src="silk saree.webp"><br>
+            <img src="pink saree.jpg">
+            <img src="gold frock.Webp" style="object-position:0px 1px;">
+           
+
+            <div class="carousel-caption">
+              <h3>WOMENS WEAR</h3>
+
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+
+              <img src="briyani.jpg">
+              <img src="burger.jpg"><br>
+              <img src="pizza.jpg">
+              <img src="juice.jpg">
+              
+              <div class="carousel-caption">
+                <h3>FOOD</h3>
+              </div>
+              </div>
+            
+            <div class="carousel-item">
+              <img src="Atlas book.jpg">
+              <img src="computer book.jpg"><br>
+              <img src="Electroics book.jpg">
+              <img src="Economics book.jpg">
+              
+              <div class="carousel-caption">
+                <h3>BOOKS</h3>
+              </div>
+              </div>
+
+          
+
+          <div class="carousel-item">
+            <img src="blue shirt.jpg">
+            <img src="black shirt.jpg"><br>
+            <img src="suit.jpg">
+            <img src="velvet suit.jpg">
+            
+            <div class="carousel-caption">
+              <h3>MEN'S WEAR</h3>
+            </div>
+          </div>
+        </div>
+
+                <!--Left and right controls-->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
+          </div>
+    </div>
+  
+
+
+<div id="flexOutput"></div>
+<div id="finalBill"></div>
+
+
+<script src="js/app.js"></script>
+
+
+
+
+
+
+   </body>
+
+
+
+
+
+</html>

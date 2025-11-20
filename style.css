@@ -1,0 +1,274 @@
+header
+{
+   width:960px;
+   height:300px;
+   background-image:linear-gradient(to right, pink, purple,blue);
+   border-width:2px 2px 0px 2px ;
+   border-color:purple;
+   border-style:solid;
+   margin:auto;
+
+}
+
+.myRow
+{
+    width:960px;
+    padding:20px;
+    height:530px;
+    box-sizing:border-box;
+    background-color:skyblue;
+    margin:auto;
+    border-width:0px 2px 2px 2px;
+    border-color:red;
+    border-style:solid;
+    height:auto;
+
+}
+.myRow .carousel-inner
+{
+    margin:auto;
+    padding:0px;
+    box-sizing:border-box;
+
+
+
+
+}
+
+.carousel-item img
+{
+    width:440px;
+    height:250px;
+    margin-left:10px;
+    margin-bottom:10px;
+    object-fit:cover;
+
+}
+
+
+.carousel-caption h3
+{
+    color:red;
+}
+
+
+#flexOutput
+{
+    width:auto;
+    padding:0px;
+}
+
+#flexContainer
+{
+
+    display:flex;
+    flex-direction:column;
+    width:310px;
+    height:400px;
+    overflow-y:auto;
+    position:fixed;
+    top:0px;
+    right:30px;
+
+
+}
+#flexContainer > div
+{
+    width:310px;
+    height:190px;
+    padding:20px;
+    box-sizing:border-box;
+    background-image:linear-gradient(to right bottom,orange,yellow);
+    border:2px solid red;
+    margin-bottom:0px;
+
+}
+
+#flexContainer > h2
+{
+    color:red;
+    margin:0px;
+    padding:0px;
+
+}
+
+#flexContainer button
+{
+    float:right;
+    margin-right:10px;
+    height:auto
+
+
+
+}
+
+#flexContainer hr
+{
+    margin-bottom:10px;
+
+}
+
+#flexContainer #buttons
+{
+    width:310px;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    border:none;
+    
+}
+
+#finalBill{width:550px;top:10px;left:350px;position:fixed;height:560px;display:none;z-index:5;overflow-y:auto;}
+	#finalBill #bankInfo{width:530px;padding:10px;box-sizing:border-box;height:210px;overflow-y:auto;}
+	#finalBill #billTable{background-color:maroon;width:530px;padding:30px;box-sizing:border-box;height:310px;overflow-y:auto;}
+	#finalBill #buttons2{width:530px;padding:0px 10px 0px 10px;height:50px;}
+
+#finalBill h2
+{
+	margin:auto;
+	padding:0px;
+	color:white;
+	
+}
+
+#bankInfo img
+{
+	width:30px;
+	margin:auto auto auto 15px;
+}
+
+#bankInfo input[type="text"]
+{
+	border-radius:4px;
+	border:1px solid black;
+}
+
+#bankInfo input[type="password"]
+{
+	border-radius:4px;
+}
+
+#finalBill #buttons2
+{width:530px;padding:0px 10px 0px 10px;}
+
+#buttons2 #backToCart
+{
+	float:left;
+	margin:0px auto 0px 10px;
+	height:50px;
+}
+
+#buttons2 #pay
+{
+	float:right;
+	margin:0px 10px 0px auto;
+	height:50px;
+}
+
+.table-product-heading
+{
+	width:140px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-items-heading
+{
+	width:50px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+.table-product-content
+{
+	width:140px;
+	height:140px;
+	padding:20px;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.table-product-items
+{
+	width:50px;
+	height:140px;
+	text-align:center;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-product-total
+{
+	width:70px;
+	padding:20px;
+	text-align:center;
+	height:140px;
+	box-sizing:border-box;
+	color:white;
+}
+
+.table-total-heading
+{
+	width:70px;
+	height:50px;
+	padding:20px;
+	box-sizing:border-box;
+	color:white;
+	text-align:center;
+}
+
+#billTable table
+{
+	width:310px;
+	height:auto;
+	margin:auto;
+	border:1px solid white;
+	border-collapse:collapse;
+}
+#billTable th,td
+{
+	color:white;
+	border:1px solid white;
+	font-weight:600;
+}
+
+
+
+#buttons2 #backToCart
+{
+	float:left;
+	margin:0px auto 0px 10px;
+	height:50px;
+}
+
+#buttons2 #pay
+{
+	float:right;
+	margin:0px 10px 0px auto;
+	height:50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

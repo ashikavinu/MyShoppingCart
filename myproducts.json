@@ -1,0 +1,199 @@
+[
+{
+"filter_id":1,
+"products":[{
+             "product_id":10,
+             "product_name":"Iron box",
+             "imgSrc":"iron box.jpg",
+             "price":5000
+             },
+             {
+             "product_id":11,
+             "product_name":"mixer",
+             "imgSrc":"mixer.jpg",
+             "price":3500
+             },
+             {
+             "product_id":13,
+             "product_name":"purifer",
+             "imgSrc":"purifer.jpg",
+             "price":15000
+             },
+             {
+             "product_id":14,
+             "product_name":"Smart-Grinder",
+             "imgSrc":"Smart-Grinder.jpg",
+             "price":7000
+             },
+             {
+             "product_id":15,
+             "product_name":"washing machine",
+             "imgSrc":"washing machine.webp",
+             "price":25000
+             },
+             {
+             "product_id":16,
+             "product_name":"refrigerator",
+             "imgSrc":"refrigerator.avif",
+             "price":40000
+             }]
+ },
+ {
+ "filter_id":2,
+ "products":[{
+            "product_id":17,
+            "product_name":"black shirt",
+            "imgSrc":"black shirt.jpg",
+            "price":3000
+            },
+            {
+            "product_id":18,
+            "product_name":"green t shirt",
+            "imgSrc":"green t shirt.avif",
+            "price":1999
+            },
+            {
+            "product_id":19,
+            "product_name":"pant.",
+            "imgSrc":"pant.jpg",
+            "price":2000
+            },
+            {
+            "product_id":20,
+            "product_name":"suit",
+            "imgSrc":"suit.jpg",
+            "price":60000
+            },
+            {
+            "product_id":21,
+            "product_name":"velvet suit",
+            "imgSrc":"velvet suit.jpg",
+            "price":9999
+            },
+            {
+            "product_id":22,
+            "product_name":"blue shirt",
+            "imgSrc":"blue shirt.jpg",
+            "price":3000
+            }]
+            
+ },
+ {
+ "filter_id":3,
+ "products":[{
+             "product_id":23,
+             "product_name":"blue gowm",
+             "imgSrc":"blue gowm.Webp",
+             "price":6000
+             },
+             {
+             "product_id":24,
+             "product_name":"blue legenha",
+             "imgSrc":"blue legenha.jpg",
+             "price":50000
+             },
+             {
+             "product_id":25,
+             "product_name":"gold frock",
+             "imgSrc":"gold frock.Webp",
+             "price":10000
+             },
+             {
+             "product_id":26,
+             "product_name":"gold gown",
+             "imgSrc":"gold gown.jpg",
+             "price":3000
+             },
+             {
+             "product_id":27,
+             "product_name":"silk saree",
+             "imgSrc":"silk saree.webp",
+             "price":1500
+             },
+             {
+             "product_id":28,
+             "product_name":"pink saree",
+             "imgSrc":"pink saree.jpg",
+             "price":6000
+             }]
+ },
+ {
+ "filter_id":4,
+ "products":[{
+              "product_id":29,
+              "product_name":"biryani",
+              "imgSrc":"briyani.jpg",
+              "price":399
+              },
+              {
+              "product_id":30,
+              "product_name":"Dosa",
+              "imgSrc":"Dosa.jpg",
+              "price":150
+              },
+              {
+              "product_id":31,
+              "product_name":"juice",
+              "imgSrc":"juice.jpg",
+              "price":150
+              },
+              {
+              "product_id":32,
+              "product_name":"burger",
+              "imgSrc":"burger.jpg",
+              "price":250
+              },
+              {
+              "product_id":33,
+              "product_name":"meals",
+              "imgSrc":"meals.jpg",
+              "price":399
+              },
+              {
+              "product_id":34,
+              "product_name":"pizza",
+              "imgSrc":"pizza.jpg",
+              "price":400
+              }]
+ },
+ {
+ "filter_id":5,
+ "products":[{
+              "product_id":35,
+              "product_name":"Atlas book",
+              "imgSrc":"Atlas book.jpg",
+              "price":1000
+              },
+              {
+              "product_id":36,
+              "product_name":"computer book",
+              "imgSrc":"computer book.jpg",
+              "price":1999
+              },
+              {
+              "product_id":37,
+              "product_name":"Electroics book",
+              "imgSrc":"Electroics book.jpg",
+              "price":999
+              },
+              {
+              "product_id":38,
+              "product_name":"Economics book",
+              "imgSrc":"Economics book.jpg",
+              "price":499
+              },
+              {
+              "product_id":39,
+              "product_name":"continent book",
+              "imgSrc":"continent book.webp",
+              "price":399
+              },
+              {
+              "product_id":40,
+              "product_name":"crindrella book",
+              "imgSrc":"crindrella story book.jpeg",
+              "price":399
+              }]
+ 
+}
+]
